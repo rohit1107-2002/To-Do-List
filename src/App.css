@@ -2,37 +2,74 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  height: 40px;
+  width: 400px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: cursive;
+  border-radius: 10px;
+  padding-left: 10px; 
+  border-color: blueviolet;
+  border-style:dashed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  height: 42px;
+  width: 117px;
+  margin: 10px;
   color: white;
+  font-size: 15px;
+  font-family:cursive;
+  border: none;
+  border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+#Add{
+  background-color: rgb(245, 152, 30);
+}
+#del{
+  background-color: rgb(248, 124, 79);
+}
+#comp{
+  background-color: rgb(97, 150, 12);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  cursor: pointer;
 }
+
+ul {
+  display: grid;
+  place-items: center;
+}
+
+li {
+  list-style-type: none;
+  height: 30px;
+  width: 500px;
+  margin: 10px;
+  background-color: #67f1a5;
+  color: rgb(117, 118, 119);
+  font-family: cursive;
+  font-size: 25px;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#ToDo {
+  display: flex;
+  align-items: center;
+}
+
+h3{
+  margin-left: 10px;
+  font-family: cursive;
+  font-size: 18px;
+}
+
